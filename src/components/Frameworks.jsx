@@ -2,7 +2,7 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
-    "androidstudio-original",
+    "androidstudio",
     "angular-original",
     "azure",
     "cplusplus",
@@ -21,7 +21,9 @@ export function Frameworks() {
     "mongodb",
     "nextjs",
     "nodejs",
+    "openai",
     "postgresql",
+    "python",
     "react",
     "sqlite",
     "supabase",

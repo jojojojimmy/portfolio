@@ -3,7 +3,7 @@ export const myProjects = [
     id: 1,
     title: "Fluenty",
     description:
-      "A web platform connecting Brazilian language students with Canadian instructors, featuring role-based dashboards, scheduling, and progress tracking.",
+      "Web Platform",
     subDescription: [
       "A full-stack web platform built with Django and React that connects Brazilian language students with native Canadian instructors, featuring role-based dashboards for students, instructors, and school admins, a scheduling system with Google Meet integration, quiz-based progress tracking, and instructor feedback tools and deployed via Docker with Supabase handling authentication and database management."
     ],
@@ -22,7 +22,7 @@ export const myProjects = [
     id: 2,
     title: "Flux",
     description:
-      "An AI-driven mock interview platform that provides real-time feedback using speech recognition and large language models.",
+      "Mock Interview Platform",
     subDescription: [
       "Built a full-stack AI mock interview platform integrating OpenAI Whisper for speech-to-text and GPT-4o-mini for real-time feedback via RESTful APIs, with secure Supabase session handling that auto-deletes user data after use, email notifications via Nodemailer, and a scalable Node.js backend deployed on Render."
     ],
@@ -42,12 +42,9 @@ export const myProjects = [
     id: 3,
     title: "QuickScanQuestPro",
     description:
-      "An Android event management app featuring QR code-based attendee check-ins and real-time data synchronization.",
+      "Android App",
     subDescription: [
-      "Built QR code-based check-in system with real-time Firebase synchronization for event details and attendee lists.",
-      "Designed intuitive UI for both organizers and participants using Android Studio, supporting live event updates.",
-      "Implemented push notification system for organizer announcements, improving attendee engagement by 40%.",
-      "Integrated RESTful APIs for seamless communication between the Android frontend and Firebase backend.",
+      "An Android event management app that lets organizers create and manage events while attendees discover and join nearby activities, featuring QR code check-ins, real-time Firebase sync, geolocation heatmaps, push notifications, and role-based access and covering the full event lifecycle from creation to attendee management."
     ],
     href: "https://github.com/jojojojimmy/QuickScanQuestPro",
     ctaLabel: "View Repo",
@@ -65,7 +62,7 @@ export const experiences = [
   {
     title: "Full Stack Developer",
     job: "Fluenty",
-    date: "Jan 2025 – Apr 2025",
+    date: "January 2025 – April 2025",
     contents: [
       "Built and deployed a full-stack web platform connecting Brazilian students with Canadian instructors, owning the complete software lifecycle from requirements through production.",
       "Designed role-specific dashboards for 3 user types using React, Tailwind, and Django.",
@@ -76,7 +73,7 @@ export const experiences = [
   {
     title: "Footwear Advisor",
     job: "Sport Chek",
-    date: "Jul 2024 – Aug 2025",
+    date: "July 2024 – August 2025",
     contents: [
       "Provided personalized footwear recommendations to customers across athletic and lifestyle categories, driving satisfaction and repeat visits.",
       "Managed inventory, restocking, and visual merchandising to maintain an organized and appealing sales floor.",
@@ -87,7 +84,7 @@ export const experiences = [
   {
     title: "Full Stack Developer Intern",
     job: "Imtac",
-    date: "May 2024 – Jun 2024",
+    date: "May 2024 – June 2024",
     contents: [
       "Developed a full-stack Employee Management System using Angular and Spring Boot with a focus on security, performance, and scalable data architecture.",
       "Implemented role-based access control (RBAC) and secure authentication using Spring Security.",
@@ -98,7 +95,7 @@ export const experiences = [
   {
     title: "Computer Solutions Advisor",
     job: "Best Buy",
-    date: "Aug 2023 – Dec 2023",
+    date: "August 2023 – December 2023",
     contents: [
       "Advised customers on technology products and solutions, translating complex technical specifications into clear recommendations tailored to individual needs.",
       "Consistently matched customers with the right hardware, software, and accessories based on use case and budget.",

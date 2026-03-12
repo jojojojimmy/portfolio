@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform, useSpring } from "motion/react";
 
 const ParallaxBackground = () => {
     const {scrollYProgress} = useScroll();
-    const x = useSpring(scrollYProgress, { damping: 20 });
+    const x = useSpring(scrollYProgress, { damping: 50 });
     const backgroundY = useTransform(x, [0, 0.5], ["0%", "90%"]);
     const moutainsY = useTransform(x, [0, 0.5], ["0%", "70%"]);
     const logoLandY = useTransform(x, [0, 0.5], ["0%", "80%"]);

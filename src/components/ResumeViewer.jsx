@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const ResumeViewer = ({
   resumePath = "/assets/resume.pdf",
   heading = "Resume",
-  description = "Get a little sneak peek at my resume",
+  description = "One document, carefully crafted to make me sound smarter than I am.",
   documentTitle = "Resume",
 }) => {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
