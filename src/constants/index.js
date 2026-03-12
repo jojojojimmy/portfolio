@@ -7,8 +7,8 @@ export const myProjects = [
     subDescription: [
       "A full-stack web platform built with Django and React that connects Brazilian language students with native Canadian instructors, featuring role-based dashboards for students, instructors, and school admins, a scheduling system with Google Meet integration, quiz-based progress tracking, and instructor feedback tools and deployed via Docker with Supabase handling authentication and database management."
     ],
-    href: "https://github.com/jojojojimmy/w25project-Fluenty",
-    ctaLabel: "View Repo",
+    href: "https://www.youtube.com/watch?si=LJXohXDsvFchV1Ba&v=N_T5LnHEnsg&feature=youtu.be",
+    ctaLabel: "View Demo",
     logo: "",
     image: "/assets/projects/fluenty.png",
     tags: [

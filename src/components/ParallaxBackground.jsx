@@ -3,14 +3,14 @@ import { motion, useScroll, useTransform, useSpring } from "motion/react";
 
 const ParallaxBackground = () => {
     const {scrollYProgress} = useScroll();
-    const x = useSpring(scrollYProgress, { damping: 50 });
-    const backgroundY = useTransform(x, [0, 0.5], ["0%", "90%"]);
-    const moutainsY = useTransform(x, [0, 0.5], ["0%", "70%"]);
-    const logoLandY = useTransform(x, [0, 0.5], ["0%", "80%"]);
-    const jungle1Y = useTransform(x, [0, 0.5], ["0%", "90%"]);
-    const jungle2Y = useTransform(x, [0, 0.5], ["0%", "90%"]);
-    const jungle3Y = useTransform(x, [0, 0.5], ["0%", "80%"]);
-    const jungle4Y = useTransform(x, [0, 0.5], ["0%", "100%"]);
+    const x = useSpring(scrollYProgress, { damping: 60 });
+    const backgroundY = useTransform(x, [0, 0.5], ["0%", "70%"]);
+    const moutainsY = useTransform(x, [0, 0.5], ["0%", "50%"]);
+    const logoLandY = useTransform(x, [0, 0.5], ["0%", "70%"]);
+    const jungle1Y = useTransform(x, [0, 0.5], ["0%", "60%"]);
+    const jungle2Y = useTransform(x, [0, 0.5], ["0%", "60%"]);
+    const jungle3Y = useTransform(x, [0, 0.5], ["0%", "70%"]);
+    const jungle4Y = useTransform(x, [0, 0.5], ["0%", "60%"]);
     const jungle5Y = useTransform(x, [0, 0.5], ["0%", "10%"]);
     const manOnMountainY = useTransform(x, [0, 0.5], ["0%", "0%"]);
     return (
@@ -23,6 +23,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : backgroundY,
+                    willChange: "transform",
                 }}/>
                 {/* moutains */}
                 <motion.div className = "absolute inset-0 -z-80" 
@@ -31,6 +32,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : moutainsY,
+                    willChange: "transform",
                 }}/>
                 {/* logo_land */}
                 <motion.div className = "absolute inset-0 -z-70" 
@@ -39,6 +41,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : logoLandY,
+                    willChange: "transform",
                 }}/>
                 {/* jungle 1 */}
                 <motion.div className = "absolute inset-0 -z-60" 
@@ -47,6 +50,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : jungle1Y,
+                    willChange: "transform",
                 }}/>
                 {/* jungle 2 */}
                 <motion.div className = "absolute inset-0 -z-50" 
@@ -55,6 +59,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : jungle2Y,
+                    willChange: "transform",
                 }}/>
                 {/* jungle 3 */}
                 <motion.div className = "absolute inset-0 -z-40" 
@@ -63,6 +68,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : jungle3Y,
+                    willChange: "transform",
                 }}/>
                 {/* jungle 4 */}
                 <motion.div className = "absolute inset-0 -z-30" 
@@ -71,6 +77,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : jungle4Y,
+                    willChange: "transform",
                 }}/>
                 {/* jungle 5 */}
                 <motion.div className = "absolute inset-0 -z-20" 
@@ -79,6 +86,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : jungle5Y,
+                    willChange: "transform",
                 }}/>
                 {/* man on mountain */}
                 <motion.div className = "absolute inset-0 -z-10" 
@@ -87,6 +95,7 @@ const ParallaxBackground = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "bottom",
                     y : manOnMountainY,
+                    willChange: "transform",
                 }}/>
             </div>
 
