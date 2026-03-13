@@ -4,12 +4,13 @@ import { motion } from "motion/react";
 const Loading = () => {
   const funTakes = [
     // "At the end of the day, is maddie actually a baddie?",
-    "I think gaslighting is a way to express your affection for someone.",
+    "Gaslighting is just fun way to express your affection for someone.",
     "Eating pizza with a knife and fork should be considered a crime.",
     "Mismatching socks is psychotic behavior.",
     "Reality TV is peak entertainment.",
     "Pokemon is the greatest media franchise to exist.",
     "Video games actually do make you smarter, I would know!",
+    "The younger siblings are statistically better than older siblings",
   ];
 
   const loadingQuote = useMemo(
