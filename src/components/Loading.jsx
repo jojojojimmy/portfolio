@@ -11,6 +11,9 @@ const Loading = () => {
     "Pokemon is the greatest media franchise to exist.",
     "Video games actually do make you smarter, I would know!",
     "The younger siblings are statistically better than older siblings",
+    "The best way to eat a burger is to eat it upside down.",
+    "If your sibling ever asks you to do something, you should always do the opposite.",
+    "Playing any Fifa game brings out the worst in people.",
   ];
 
   const loadingQuote = useMemo(

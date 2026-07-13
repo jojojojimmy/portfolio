@@ -56,6 +56,25 @@ export const myProjects = [
       { id: 3, name: "Android Studio", path: "/assets/logos/androidstudio.svg" },
     ],
   },
+  {
+    id: 4,
+    title: "World Cup Predictor",
+    description: "ML Prediction System",
+    subDescription: [
+      "Built an end-to-end football prediction system processing 49,000+ international matches spanning 150 years, engineering a custom Elo rating engine that classifies 200+ tournament types into weighted stakes tiers - the strongest model feature at 46% importance. Trained and compared Logistic Regression and XGBoost models with strict time-based train/test splits to prevent data leakage, achieving 60.5% accuracy on the live 2026 World Cup group stage (vs. ~52% industry baseline) and 100% accuracy on completed Round of 32 knockout predictions. Built a hybrid Monte Carlo bracket simulator running 10,000 scenarios per refresh that locks completed results as ground truth and simulates remaining fixtures, producing tournament win probabilities for all 32 teams - deployed via an interactive Streamlit dashboard covering all 336 national teams with daily automated retraining."
+    ],
+    href: "https://github.com/jojojojimmy/world-cup-predictor",
+    ctaLabel: "View Repo",
+    logo: "",
+    image: "/assets/projects/worldcup.png",
+    tags: [
+      { id: 1, name: "Python", path: "/assets/logos/python.svg" },
+      { id: 2, name: "Pandas", path: "/assets/logos/pandas.svg" },
+      { id: 3, name: "SQLite", path: "/assets/logos/sqlite.svg" },
+      { id: 4, name: "Streamlit", path: "/assets/logos/streamlit.svg" },
+      { id: 5, name: "Numpy", path: "/assets/logos/numpy.svg" },
+    ],
+  },
 ];
 
 export const experiences = [
